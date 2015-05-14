@@ -35,7 +35,7 @@ Using variables makes working with data much easier for us. Previously, if we wa
 ```objc
 NSString *greeting = @"Welcome to The Flatiron School!";
 
-NSLog(@"Hi, my name is Chris! @", greeting); // prints Hi, my name is Chris! Welcome to the Flatiron School!
+NSLog(@"Hi, my name is Chris! %@", greeting); // prints Hi, my name is Chris! Welcome to the Flatiron School!
 ```
 
 Just as easily as we can assign a value to a variable, we can *reassing* a different value to that variable. In Objective-C, it has to be data of the same type, i.e. NSString in this case.
